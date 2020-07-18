@@ -1,0 +1,11 @@
+[build]
+command = "npm run build"
+functions = "src/_functions"
+publish = "_site"
+
+[build.environment]
+NODE_VERSION = "10"
+
+[dev]
+command = "npm run dev"
+port = 8888
